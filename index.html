@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Anusri Podugu's portfolio: projects, technical skills, education and achievements.">
+  <title>Anusri Podugu | Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">Anusri<span>.</span></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav-menu">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+      <a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="hero-content">
+        <p class="eyebrow">HELLO, WORLD! 👋</p>
+        <h1>Hi, I'm <span>Anusri Podugu</span></h1>
+        <h2>B.Tech CSE Student | Aspiring Developer</h2>
+        <p class="hero-description">
+          I am a second-year Computer Science and Engineering student at Aditya University.
+          I enjoy programming, solving problems, analyzing data, and building practical projects.
+          I am looking forward to learning from real-world projects and internship opportunities.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">Explore My Projects</a>
+          <a href="resume.pdf" class="btn secondary" target="_blank" rel="noopener noreferrer">View My Resume ↗</a>
+        </div>
+        <div class="social-links">
+          <a href="https://github.com/anusripodogu" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/anusri-podugu-a7a410370/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://www.codechef.com/users/anusri_podugu" target="_blank" rel="noopener noreferrer">CodeChef ↗</a>
+        </div>
+      </div>
+      <div class="hero-photo">
+        <img src="profile-photo.jpeg" alt="Portrait of Anusri Podugu">
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading"><p class="eyebrow">GET TO KNOW ME</p><h2>About <span>Me</span></h2></div>
+      <div class="about-grid">
+        <article class="about-card">
+          <h3>My Journey</h3>
+          <p>I am pursuing a B.Tech in Computer Science and Engineering at Aditya University, Surampalem.
+          My academic work includes Python-based vehicle data analysis, SQL/database design, and C++ object-oriented programming.
+          I am interested in software development, data analytics, and database management, and I want to keep improving through hands-on work.</p>
+        </article>
+        <div class="stats-grid">
+          <div class="stat-card"><span class="stat-number">2nd</span><p>Year of B.Tech</p></div>
+          <div class="stat-card"><span class="stat-number">CSE</span><p>Branch</p></div>
+          <div class="stat-card"><span class="stat-number">2029</span><p>Expected Graduation</p></div>
+          <div class="stat-card"><span class="stat-number">200+</span><p>CodeChef Problems Solved</p></div>
+        </div>
+      </div>
+      <article class="education-card">
+        <span class="timeline-dot"></span>
+        <div><p class="card-label">EDUCATION</p><h3>Bachelor of Technology — Computer Science and Engineering</h3>
+        <p>Aditya University, Surampalem</p><p class="muted">Expected graduation: 2029</p></div>
+      </article>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading"><p class="eyebrow">WHAT I WORK WITH</p><h2>Technical <span>Skills</span></h2></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">⌨</div><h3>Programming</h3><p>C++ · Python</p></article>
+        <article class="skill-card"><div class="skill-icon">📊</div><h3>Data Analysis</h3><p>Pandas · NumPy · Matplotlib · Data Cleaning</p></article>
+        <article class="skill-card"><div class="skill-icon">🗄</div><h3>Database</h3><p>SQL · Relational Design · ER Diagrams · Normalization</p></article>
+        <article class="skill-card"><div class="skill-icon">🧩</div><h3>Core Concepts</h3><p>OOP · CRUD · Primary and Foreign Keys</p></article>
+        <article class="skill-card"><div class="skill-icon">🛠</div><h3>Tools</h3><p>Google Colab · Jupyter Notebook · CSV Data</p></article>
+      </div>
+      <p class="muted skill-note">Only list skills you can confidently discuss and demonstrate.</p>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading"><p class="eyebrow">WHAT I'VE BEEN BUILDING</p><h2>Academic <span>Projects</span></h2></div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-visual fuel-visual"><span>📈</span><p>PYTHON · DATA ANALYSIS</p></div>
+          <div class="project-body"><p class="card-label">PROJECT 01</p><h3>Vehicle Fuel Analysis System</h3>
+            <p>Analyzed the Cars India dataset to compare fuel-efficiency patterns by manufacturer and vehicle specifications. Cleaned data by handling missing values and checking duplicates, then used grouped analysis and bar charts, histograms, and scatter plots to explore relationships.</p>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Matplotlib</span><span>Google Colab</span></div>
+            <a class="project-link" href="https://github.com/anusripodogu" target="_blank" rel="noopener noreferrer">Visit my GitHub profile ↗</a>
+            <p class="muted small-note">Replace this profile link with the specific project repository when it is available.</p>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual database-visual"><span>🗄</span><p>DATABASE · SQL</p></div>
+          <div class="project-body"><p class="card-label">PROJECT 02</p><h3>Online Examination Management System</h3>
+            <p>Designed and documented a relational database for student, faculty, subject, exam, question, attempt, answer, and result records. Prepared ER relationships, relational schema, normalization, keys, constraints, and role-based workflows.</p>
+            <div class="tags"><span>DBMS</span><span>SQL</span><span>ER Design</span><span>Normalization</span></div>
+            <a class="project-link" href="https://github.com/anusripodogu" target="_blank" rel="noopener noreferrer">Visit my GitHub profile ↗</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual payroll-visual"><span>💻</span><p>C++ · OBJECT-ORIENTED PROGRAMMING</p></div>
+          <div class="project-body"><p class="card-label">PROJECT 03</p><h3>Employee Payroll System</h3>
+            <p>Built a menu-driven payroll application to manage employee details and calculate gross and net salary. Included allowances, deductions, payslip generation, employee search, display, deletion, input validation, and file handling.</p>
+            <div class="tags"><span>C++</span><span>OOP</span><span>Vectors</span><span>File Handling</span></div>
+            <a class="project-link" href="https://github.com/anusripodogu" target="_blank" rel="noopener noreferrer">Visit my GitHub profile ↗</a>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-visual portfolio-visual"><span>&lt;/&gt;</span><p>HTML · CSS · JAVASCRIPT</p></div>
+          <div class="project-body"><p class="card-label">PROJECT 04</p><h3>Personal Developer Portfolio</h3>
+            <p>A responsive personal website showcasing my education, technical skills, academic projects, certifications, and professional profiles.</p>
+            <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+            <a class="project-link" href="#home">You are viewing this project ↑</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section">
+      <div class="section-heading"><p class="eyebrow">LEARNING & ACHIEVEMENTS</p><h2>Certifications & <span>Achievements</span></h2></div>
+      <article class="cert-card"><div class="cert-icon">🏅</div><div><h3>Certifications & Courses</h3>
+        <p>Power BI, Microsoft Excel, Python, Oracle DBMS, Agile Software Engineering, Introduction to Data Science, and Prompt Engineering.</p>
+        <p class="muted">Add individual certificate links or files when available.</p></div></article>
+      <article class="cert-card"><div class="cert-icon">🚀</div><div><h3>Hackathons & Participation</h3>
+        <ul class="achievement-list">
+          <li>Internal Hackathon for Smart India Hackathon (SIH) 2026, Aditya University — September 2026.</li>
+          <li>Adobe University Hackathon — August 2026.</li>
+          <li>Women Who Master Hackathon, a Logitech and Aspire For Her initiative.</li>
+          <li>TERRATHON 2026, sustainable hackathon, SRM University-AP — September 25, 2026.</li>
+        </ul></div></article>
+      <article class="cert-card"><div class="cert-icon">💻</div><div><h3>Coding Achievements</h3>
+        <ul class="achievement-list"><li>Solved 200+ problems on CodeChef.</li><li>Earned the CodeChef 50 Days Badge.</li><li>Participated in the Smart India Hackathon internal hackathon.</li></ul>
+        <a class="project-link" href="https://www.codechef.com/users/anusri_podugu" target="_blank" rel="noopener noreferrer">View CodeChef profile ↗</a></div></article>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="contact-card"><p class="eyebrow">LET'S CONNECT</p><h2>Let's build something <span>useful.</span></h2>
+        <p>I am interested in learning, collaborating on projects, and exploring software development or data-focused internship opportunities.</p>
+        <a class="btn primary" href="mailto:anusripodugu807@gmail.com">Email Me: anusripodugu807@gmail.com ✉</a>
+        <div class="social-links contact-links">
+          <a href="https://github.com/anusripodogu" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/anusri-podugu-a7a410370/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://www.codechef.com/users/anusri_podugu" target="_blank" rel="noopener noreferrer">CodeChef ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer><p>Designed and built by Anusri Podugu</p><p>© <span id="year"></span> · Keep learning. Keep building.</p></footer>
+  <button id="back-to-top" aria-label="Back to top">↑</button>
+  <script src="script.js"></script>
+</body>
+</html>
